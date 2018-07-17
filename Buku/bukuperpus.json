@@ -1,0 +1,50 @@
+{
+{
+  "0": 200,
+  "result": [
+    {
+  
+    "id_buku": "3",
+
+      "nama_buku": "susi",
+
+      "harga_buku": "2000",
+
+      "total": "1"
+    }
+
+  ]
+}
+{
+  "0": 200,
+  "result": [
+    {
+  
+    "id_buku": "2",
+
+      "nama_buku": "heni",
+
+      "harga_buku": "3000",
+
+      "total": "3"
+    }
+
+  ]
+}
+{
+  "0": 200,
+  "result": [
+    {
+  
+    "id_buku": "1",
+
+      "nama_buku": "devi",
+
+      "harga_buku": "1000",
+
+      "total": "4"
+    }
+
+  ]
+}
+}

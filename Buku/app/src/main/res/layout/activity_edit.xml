@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/idBukuEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id buku" />
+
+    <EditText
+        android:id="@+id/edNamaEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nama buku" />
+
+    <EditText
+        android:id="@+id/etHargaEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="harga Buku" />
+
+    <EditText
+        android:id="@+id/etTotalEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="total" />
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnHapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+       />
+
+</LinearLayout>

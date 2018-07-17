@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/idBukuTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id buku" />
+
+    <EditText
+        android:id="@+id/edNamaTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nama buku" />
+
+    <EditText
+        android:id="@+id/etHargaTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="harga Buku" />
+
+    <EditText
+        android:id="@+id/etTotalTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="total" />
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah"/>
+
+</LinearLayout>
